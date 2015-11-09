@@ -7,6 +7,7 @@ $(function(){
 	  
 	  function tapHandler( event ){
 		  if(!lose) {
+			  $(".start").hide();
 			  if(up) {
 					up=false;
 					$("#cube").attr("src","img/1.png");
