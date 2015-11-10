@@ -37,6 +37,20 @@ body {
     width:100%;
 }
 
+.elem {
+	position: absolute;
+	background-color:#000000;
+	width:200px;
+	height:20%;
+}
+
+.noselection {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
 /* Portrait layout (default) */
 .app {
     position:absolute;             /* position in the center of the screen */
